@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>약 복용 도우미</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>약 복용 도우미</h1>
+        <div class="input-section">
+            <input type="text" id="medicineName" placeholder="약 이름">
+            <input type="time" id="medicineTime">
+            <button id="addMedicineBtn">약 등록</button>
+        </div>
+        <hr>
+        <div class="medication-list-section">
+            <h2>오늘의 복용 기록</h2>
+            <ul id="medicationList"></ul>
+        </div>
+        <hr>
+        <div class="message-section">
+            <p id="feedbackMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
